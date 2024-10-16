@@ -38,28 +38,13 @@ The main goal of this project is to create a user-friendly platform where indivi
 ### 6. **Optimization**
 - Database queries are optimized for performance, including indexing important columns to speed up search operations.
 
-## Project Structure
-
-- **index.php**: The main entry point where users can log in and access the application.
-- **login.php**: Handles user authentication and redirects to the task dashboard upon successful login.
-- **task.php**: Contains functionalities for adding, updating, and deleting tasks.
-- **db_connect.php**: Responsible for connecting to the MySQL database.
-- **style.css**: Contains styles for the web application, enhancing the user interface.
-
 ## Hosting
 
 I will be hosting this application on **infinityfree.com**, which provides free web hosting services. This will allow users to access the Task Management System online without needing to set up a local environment. 
 
-### Steps for Hosting:
-1. **Create an Account**: I will sign up for an account on infinityfree.com.
-2. **Upload Files**: Using the file manager or an FTP client, I will upload all project files to the server.
-3. **Database Setup**: I will create a MySQL database on infinityfree.com and import the necessary schema for the tasks.
-4. **Configuration**: I will update the `db_connect.php` file with the new database credentials to ensure the application connects to the hosted database.
-5. **Access**: Once hosted, I will share the link for users to access the Task Management System.
 
 ## Future Improvements
 
-- **User Authentication**: Currently, the project does not implement user registration. Adding a user registration feature would allow multiple users to manage their tasks independently.
 - **Task Filtering and Sorting**: Implementing sorting options for tasks (e.g., by due date or priority) would enhance usability.
 - **Mobile Optimization**: Although the current design is responsive, further tweaks could improve the user experience on smaller screens.
 
